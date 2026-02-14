@@ -1,0 +1,98 @@
+[2026-02-10T23:56:37.288+0000] {processor.py:161} INFO - Started process (PID=71) to work on /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:56:37.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2.py for tasks to queue
+[2026-02-10T23:56:37.294+0000] {logging_mixin.py:188} INFO - [2026-02-10T23:56:37.293+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:56:37.308+0000] {logging_mixin.py:188} INFO - [2026-02-10T23:56:37.303+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/airflow_lab2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_lab2.py", line 12, in <module>
+    from lab import load_data, data_preprocessing, build_save_model, load_model_elbow
+ModuleNotFoundError: No module named 'lab'
+[2026-02-10T23:56:37.309+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:56:37.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2.py took 0.045 seconds
+[2026-02-10T23:57:07.526+0000] {processor.py:161} INFO - Started process (PID=91) to work on /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:57:07.527+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2.py for tasks to queue
+[2026-02-10T23:57:07.529+0000] {logging_mixin.py:188} INFO - [2026-02-10T23:57:07.528+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:57:07.537+0000] {logging_mixin.py:188} INFO - [2026-02-10T23:57:07.536+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/airflow_lab2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_lab2.py", line 12, in <module>
+    from lab import load_data, data_preprocessing, build_save_model, load_model_elbow
+ModuleNotFoundError: No module named 'lab'
+[2026-02-10T23:57:07.537+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:57:07.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2.py took 0.029 seconds
+[2026-02-10T23:57:37.882+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:57:37.884+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2.py for tasks to queue
+[2026-02-10T23:57:37.887+0000] {logging_mixin.py:188} INFO - [2026-02-10T23:57:37.886+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:57:37.894+0000] {logging_mixin.py:188} INFO - [2026-02-10T23:57:37.892+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/airflow_lab2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_lab2.py", line 12, in <module>
+    from lab import load_data, data_preprocessing, build_save_model, load_model_elbow
+ModuleNotFoundError: No module named 'lab'
+[2026-02-10T23:57:37.894+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:57:37.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2.py took 0.034 seconds
+[2026-02-10T23:58:08.284+0000] {processor.py:161} INFO - Started process (PID=131) to work on /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:58:08.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2.py for tasks to queue
+[2026-02-10T23:58:08.288+0000] {logging_mixin.py:188} INFO - [2026-02-10T23:58:08.287+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:58:08.295+0000] {logging_mixin.py:188} INFO - [2026-02-10T23:58:08.294+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/airflow_lab2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_lab2.py", line 12, in <module>
+    from lab import load_data, data_preprocessing, build_save_model, load_model_elbow
+ModuleNotFoundError: No module named 'lab'
+[2026-02-10T23:58:08.295+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:58:08.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2.py took 0.044 seconds
+[2026-02-10T23:58:38.644+0000] {processor.py:161} INFO - Started process (PID=151) to work on /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:58:38.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2.py for tasks to queue
+[2026-02-10T23:58:38.648+0000] {logging_mixin.py:188} INFO - [2026-02-10T23:58:38.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:58:38.655+0000] {logging_mixin.py:188} INFO - [2026-02-10T23:58:38.654+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/airflow_lab2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_lab2.py", line 12, in <module>
+    from lab import load_data, data_preprocessing, build_save_model, load_model_elbow
+ModuleNotFoundError: No module named 'lab'
+[2026-02-10T23:58:38.655+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:58:38.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2.py took 0.032 seconds
+[2026-02-10T23:59:09.003+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:59:09.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2.py for tasks to queue
+[2026-02-10T23:59:09.006+0000] {logging_mixin.py:188} INFO - [2026-02-10T23:59:09.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:59:09.014+0000] {logging_mixin.py:188} INFO - [2026-02-10T23:59:09.013+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/airflow_lab2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_lab2.py", line 12, in <module>
+    from lab import load_data, data_preprocessing, build_save_model, load_model_elbow
+ModuleNotFoundError: No module named 'lab'
+[2026-02-10T23:59:09.014+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:59:09.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2.py took 0.031 seconds
+[2026-02-10T23:59:39.379+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:59:39.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2.py for tasks to queue
+[2026-02-10T23:59:39.384+0000] {logging_mixin.py:188} INFO - [2026-02-10T23:59:39.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:59:39.390+0000] {logging_mixin.py:188} INFO - [2026-02-10T23:59:39.389+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/airflow_lab2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_lab2.py", line 12, in <module>
+    from lab import load_data, data_preprocessing, build_save_model, load_model_elbow
+ModuleNotFoundError: No module named 'lab'
+[2026-02-10T23:59:39.390+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_lab2.py
+[2026-02-10T23:59:39.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2.py took 0.036 seconds

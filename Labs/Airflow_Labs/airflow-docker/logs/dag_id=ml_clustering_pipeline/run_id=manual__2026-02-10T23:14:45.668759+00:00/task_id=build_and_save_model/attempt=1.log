@@ -1,0 +1,25 @@
+[2026-02-10T23:14:48.691+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ml_clustering_pipeline.build_and_save_model manual__2026-02-10T23:14:45.668759+00:00 [queued]>
+[2026-02-10T23:14:48.693+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ml_clustering_pipeline.build_and_save_model manual__2026-02-10T23:14:45.668759+00:00 [queued]>
+[2026-02-10T23:14:48.693+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-02-10T23:14:48.697+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): build_and_save_model> on 2026-02-10 23:14:45.668759+00:00
+[2026-02-10T23:14:48.700+0000] {standard_task_runner.py:60} INFO - Started process 147 to run task
+[2026-02-10T23:14:48.701+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ml_clustering_pipeline', 'build_and_save_model', 'manual__2026-02-10T23:14:45.668759+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/ml_pipeline.py', '--cfg-path', '/tmp/tmptdgl3d6b']
+[2026-02-10T23:14:48.702+0000] {standard_task_runner.py:88} INFO - Job 19: Subtask build_and_save_model
+[2026-02-10T23:14:48.716+0000] {task_command.py:423} INFO - Running <TaskInstance: ml_clustering_pipeline.build_and_save_model manual__2026-02-10T23:14:45.668759+00:00 [running]> on host aff44eccc7af
+[2026-02-10T23:14:48.737+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dhruv' AIRFLOW_CTX_DAG_ID='ml_clustering_pipeline' AIRFLOW_CTX_TASK_ID='build_and_save_model' AIRFLOW_CTX_EXECUTION_DATE='2026-02-10T23:14:45.668759+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-10T23:14:45.668759+00:00'
+[2026-02-10T23:14:48.738+0000] {logging_mixin.py:188} INFO - Building and saving model...
+[2026-02-10T23:14:48.824+0000] {logging_mixin.py:188} INFO - K=1, SSE=60.00
+[2026-02-10T23:14:48.857+0000] {logging_mixin.py:188} INFO - K=2, SSE=18.10
+[2026-02-10T23:14:48.862+0000] {logging_mixin.py:188} INFO - K=3, SSE=10.26
+[2026-02-10T23:14:48.867+0000] {logging_mixin.py:188} INFO - K=4, SSE=7.52
+[2026-02-10T23:14:48.873+0000] {logging_mixin.py:188} INFO - K=5, SSE=5.40
+[2026-02-10T23:14:48.877+0000] {logging_mixin.py:188} INFO - K=6, SSE=2.86
+[2026-02-10T23:14:48.881+0000] {logging_mixin.py:188} INFO - K=7, SSE=1.86
+[2026-02-10T23:14:48.885+0000] {logging_mixin.py:188} INFO - K=8, SSE=1.30
+[2026-02-10T23:14:48.889+0000] {logging_mixin.py:188} INFO - K=9, SSE=0.95
+[2026-02-10T23:14:48.897+0000] {logging_mixin.py:188} INFO - K=10, SSE=0.63
+[2026-02-10T23:14:48.908+0000] {logging_mixin.py:188} INFO - Model saved to /opt/***/working_data/clustering_model.pkl
+[2026-02-10T23:14:48.909+0000] {python.py:201} INFO - Done. Returned value was: b'\x80\x04\x95_\x00\x00\x00\x00\x00\x00\x00]\x94(G@M\xff\xff\xff\xff\xff\xffG@2\x1aC\x15\xf2\xc3UG@$\x84:T,\xd6DG@\x1e\x0f\x9ce\xe2@\xcfG@\x15\x9eTI\xcbFRG@\x06\xe6a\xbfv\xfb\x03G?\xfd\xc8`2S\xf7\x94G?\xf4\xd0m\x10\x949\xa0G?\xeed\xd3\x85\x86v\xfaG?\xe4\x1d\x88\xec\xaa\t#e.'
+[2026-02-10T23:14:48.919+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=ml_clustering_pipeline, task_id=build_and_save_model, execution_date=20260210T231445, start_date=20260210T231448, end_date=20260210T231448
+[2026-02-10T23:14:48.966+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-02-10T23:14:48.974+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

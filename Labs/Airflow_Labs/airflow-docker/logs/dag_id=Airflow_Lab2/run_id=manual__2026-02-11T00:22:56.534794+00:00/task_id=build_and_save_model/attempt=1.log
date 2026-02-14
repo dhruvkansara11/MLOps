@@ -1,0 +1,30 @@
+[2026-02-11T00:23:05.919+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Airflow_Lab2.build_and_save_model manual__2026-02-11T00:22:56.534794+00:00 [queued]>
+[2026-02-11T00:23:05.921+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Airflow_Lab2.build_and_save_model manual__2026-02-11T00:22:56.534794+00:00 [queued]>
+[2026-02-11T00:23:05.921+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2026-02-11T00:23:05.926+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): build_and_save_model> on 2026-02-11 00:22:56.534794+00:00
+[2026-02-11T00:23:05.930+0000] {standard_task_runner.py:60} INFO - Started process 180 to run task
+[2026-02-11T00:23:05.932+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'Airflow_Lab2', 'build_and_save_model', 'manual__2026-02-11T00:22:56.534794+00:00', '--job-id', '60', '--raw', '--subdir', 'DAGS_FOLDER/***_lab2.py', '--cfg-path', '/tmp/tmpms0qqwwo']
+[2026-02-11T00:23:05.933+0000] {standard_task_runner.py:88} INFO - Job 60: Subtask build_and_save_model
+[2026-02-11T00:23:05.950+0000] {task_command.py:423} INFO - Running <TaskInstance: Airflow_Lab2.build_and_save_model manual__2026-02-11T00:22:56.534794+00:00 [running]> on host f3de91ffcbca
+[2026-02-11T00:23:05.974+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dhruv' AIRFLOW_CTX_DAG_ID='Airflow_Lab2' AIRFLOW_CTX_TASK_ID='build_and_save_model' AIRFLOW_CTX_EXECUTION_DATE='2026-02-11T00:22:56.534794+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-11T00:22:56.534794+00:00'
+[2026-02-11T00:23:05.975+0000] {logging_mixin.py:188} INFO - Building and saving model...
+[2026-02-11T00:23:06.086+0000] {logging_mixin.py:188} INFO - K=1, SSE=60.00
+[2026-02-11T00:23:06.097+0000] {logging_mixin.py:188} INFO - K=2, SSE=18.10
+[2026-02-11T00:23:06.103+0000] {logging_mixin.py:188} INFO - K=3, SSE=10.26
+[2026-02-11T00:23:06.109+0000] {logging_mixin.py:188} INFO - K=4, SSE=7.52
+[2026-02-11T00:23:06.115+0000] {logging_mixin.py:188} INFO - K=5, SSE=5.40
+[2026-02-11T00:23:06.121+0000] {logging_mixin.py:188} INFO - K=6, SSE=2.86
+[2026-02-11T00:23:06.130+0000] {logging_mixin.py:188} INFO - K=7, SSE=1.86
+[2026-02-11T00:23:06.139+0000] {logging_mixin.py:188} INFO - K=8, SSE=1.30
+[2026-02-11T00:23:06.162+0000] {logging_mixin.py:188} INFO - K=9, SSE=0.95
+[2026-02-11T00:23:06.174+0000] {logging_mixin.py:188} INFO - K=10, SSE=0.63
+[2026-02-11T00:23:06.181+0000] {logging_mixin.py:188} INFO - Model saved to /opt/***/working_data/model_lab2.pkl
+[2026-02-11T00:23:06.181+0000] {python.py:201} INFO - Done. Returned value was: b'\x80\x04\x95_\x00\x00\x00\x00\x00\x00\x00]\x94(G@M\xff\xff\xff\xff\xff\xfeG@2\x1aC\x15\xf2\xc3UG@$\x84:T,\xd6CG@\x1e\x0f\x9ce\xe2@\xceG@\x15\x9eTI\xcbFRG@\x06\xe6a\xbfv\xfb\x04G?\xfd\xc8`2S\xf7\x94G?\xf4\xd0m\x10\x949\x9fG?\xeed\xd3\x85\x86v\xfaG?\xe4\x1d\x88\xec\xaa\t"e.'
+[2026-02-11T00:23:06.191+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=Airflow_Lab2, task_id=build_and_save_model, execution_date=20260211T002256, start_date=20260211T002305, end_date=20260211T002306
+[2026-02-11T00:23:06.193+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/email.py:154: RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2026-02-11T00:23:06.194+0000] {email.py:270} INFO - Email alerting: attempt 1
+[2026-02-11T00:23:06.496+0000] {email.py:281} INFO - Sent an alert email to ['your-email@gmail.com']
+[2026-02-11T00:23:07.298+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-02-11T00:23:07.317+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,17 @@
+[2026-02-10T23:22:51.111+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sandbox_demo.bash_with_params manual__2026-02-10T23:22:43+00:00 [queued]>
+[2026-02-10T23:22:51.113+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sandbox_demo.bash_with_params manual__2026-02-10T23:22:43+00:00 [queued]>
+[2026-02-10T23:22:51.113+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-02-10T23:22:51.117+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): bash_with_params> on 2026-02-10 23:22:43+00:00
+[2026-02-10T23:22:51.118+0000] {standard_task_runner.py:60} INFO - Started process 124 to run task
+[2026-02-10T23:22:51.120+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'sandbox_demo', 'bash_with_params', 'manual__2026-02-10T23:22:43+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/sandbox.py', '--cfg-path', '/tmp/tmptvm85jsg']
+[2026-02-10T23:22:51.120+0000] {standard_task_runner.py:88} INFO - Job 29: Subtask bash_with_params
+[2026-02-10T23:22:51.135+0000] {task_command.py:423} INFO - Running <TaskInstance: sandbox_demo.bash_with_params manual__2026-02-10T23:22:43+00:00 [running]> on host ffa6113e0dad
+[2026-02-10T23:22:51.166+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dhruv' AIRFLOW_CTX_DAG_ID='sandbox_demo' AIRFLOW_CTX_TASK_ID='bash_with_params' AIRFLOW_CTX_EXECUTION_DATE='2026-02-10T23:22:43+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-10T23:22:43+00:00'
+[2026-02-10T23:22:51.167+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-02-10T23:22:51.167+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "Hello Dhruv! Today is 2026-02-10"']
+[2026-02-10T23:22:51.170+0000] {subprocess.py:86} INFO - Output:
+[2026-02-10T23:22:51.171+0000] {subprocess.py:93} INFO - Hello Dhruv! Today is 2026-02-10
+[2026-02-10T23:22:51.171+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-02-10T23:22:51.178+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=sandbox_demo, task_id=bash_with_params, execution_date=20260210T232243, start_date=20260210T232251, end_date=20260210T232251
+[2026-02-10T23:22:51.217+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-02-10T23:22:51.226+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
