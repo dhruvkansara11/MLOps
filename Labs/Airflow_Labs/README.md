@@ -288,16 +288,16 @@ sepal_length,sepal_width,petal_length,petal_width,species
 ## Screenshots
 
 ### Airflow Flask
-![Airflow Flask](Labs/Airflow_Labs/airflow-docker/airflow_flask.png)
+![Airflow Flask](airflow-docker/airflow_flask.png)
 
 ### Airflow Lab2
-![Airflow Lab2](Labs/Airflow_Labs/airflow-docker/airflow_lab2.png)
+![Airflow Lab2](airflow-docker/airflow_lab2.png)
 
 ### Ml Clustering
-![Ml Clustering](Labs/Airflow_Labs/airflow-docker/ml_clustering.png)
+![Ml Clustering](airflow-docker/ml_clustering.png)
 
 ### My firstDAG
-![My firstDAG](Labs/Airflow_Labs/airflow-docker/my_first_dag.png)
+![My firstDAG](airflow-docker/my_first_dag.png)
 
 ### Sandbox
-![Sandbox](Labs/Airflow_Labs/airflow-docker/sandbox.png)
+![Sandbox](airflow-docker/sandbox.png)
