@@ -285,9 +285,19 @@ sepal_length,sepal_width,petal_length,petal_width,species
 - Airflow_Lab2: ~45s
 - Airflow_Lab2_Flask: 10min
 
-**Storage:** ~2.2GB total (Docker images + logs)
+## Screenshots
 
----
+### Airflow Flask
+![Airflow Flask](MLOps/Labs/Airflow_Labs/airflow-docker/airflow_flask.png)
 
+### Airflow Lab2
+![Airflow Lab2](MLOps/Labs/Airflow_Labs/airflow-docker/airflow_lab2.png)
 
+### Ml Clustering
+![Ml Clustering](MLOps/Labs/Airflow_Labs/airflow-docker/ml_clustering.png)
 
+### My firstDAG
+![My firstDAG](MLOps/Labs/Airflow_Labs/airflow-docker/my_first_dag.png)
+
+### Sandbox
+![Sandbox](MLOps/Labs/Airflow_Labs/airflow-docker/sandbox.png)
