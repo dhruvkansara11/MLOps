@@ -9946,3 +9946,361 @@ File Path                                PID    Runtime      # DAGs    # Errors 
 /opt/airflow/dags/ml_pipeline.py                                  1           0  0.66s           2026-02-11T05:12:50
 ================================================================================
 [2026-02-11T05:12:54.567+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2026-02-15T16:45:53.260+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-02-15T16:45:53.260+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-02-15T16:45:53.261+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-02-15T16:45:53.261+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-02-15T16:45:53.264+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2026-02-15T16:45:53.312+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/my_first_dag.py                                 0           0
+/opt/airflow/dags/airflow_lab2_flask.py     72  0.01s             0           0
+/opt/airflow/dags/sandbox.py                                      0           0
+/opt/airflow/dags/airflow_lab2.py           71  0.02s             0           0
+/opt/airflow/dags/ml_pipeline.py                                  0           0
+================================================================================
+[2026-02-15T16:46:23.426+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.07s           2026-02-15T16:45:54
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.13s           2026-02-15T16:45:53
+/opt/airflow/dags/sandbox.py                                      1           0  0.07s           2026-02-15T16:45:53
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.90s           2026-02-15T16:45:54
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.68s           2026-02-15T16:45:54
+================================================================================
+[2026-02-15T16:46:54.270+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.04s           2026-02-15T16:46:25
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.07s           2026-02-15T16:46:24
+/opt/airflow/dags/sandbox.py                                      1           0  0.05s           2026-02-15T16:46:24
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.59s           2026-02-15T16:46:25
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.46s           2026-02-15T16:46:25
+================================================================================
+[2026-02-15T16:47:25.105+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:46:55
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.07s           2026-02-15T16:46:55
+/opt/airflow/dags/sandbox.py                                      1           0  0.05s           2026-02-15T16:46:55
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.59s           2026-02-15T16:46:55
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.45s           2026-02-15T16:46:55
+================================================================================
+[2026-02-15T16:47:55.122+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.06s           2026-02-15T16:47:26
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.13s           2026-02-15T16:47:26
+/opt/airflow/dags/sandbox.py                                      1           0  0.08s           2026-02-15T16:47:26
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.70s           2026-02-15T16:47:26
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.52s           2026-02-15T16:47:26
+================================================================================
+[2026-02-15T16:48:25.950+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:47:57
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.07s           2026-02-15T16:47:57
+/opt/airflow/dags/sandbox.py                                      1           0  0.04s           2026-02-15T16:47:57
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.56s           2026-02-15T16:47:57
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.43s           2026-02-15T16:47:57
+================================================================================
+[2026-02-15T16:48:56.636+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:48:28
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.05s           2026-02-15T16:48:28
+/opt/airflow/dags/sandbox.py                                      1           0  0.04s           2026-02-15T16:48:28
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.42s           2026-02-15T16:48:28
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.36s           2026-02-15T16:48:28
+================================================================================
+[2026-02-15T16:49:27.454+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:48:59
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.07s           2026-02-15T16:48:58
+/opt/airflow/dags/sandbox.py                                      1           0  0.06s           2026-02-15T16:48:58
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.55s           2026-02-15T16:48:59
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.41s           2026-02-15T16:48:59
+================================================================================
+[2026-02-15T16:49:57.587+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.04s           2026-02-15T16:49:30
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.11s           2026-02-15T16:49:29
+/opt/airflow/dags/sandbox.py                                      1           0  0.07s           2026-02-15T16:49:29
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.88s           2026-02-15T16:49:30
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.68s           2026-02-15T16:49:30
+================================================================================
+[2026-02-15T16:50:28.320+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:50:01
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.05s           2026-02-15T16:49:59
+/opt/airflow/dags/sandbox.py                                      1           0  0.07s           2026-02-15T16:50:00
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.48s           2026-02-15T16:50:01
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.40s           2026-02-15T16:50:01
+================================================================================
+[2026-02-15T16:50:54.010+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-02-15T16:50:54.020+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2026-02-15T16:50:59.082+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:50:31
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.04s           2026-02-15T16:50:30
+/opt/airflow/dags/sandbox.py                                      1           0  0.06s           2026-02-15T16:50:31
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.45s           2026-02-15T16:50:31
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.39s           2026-02-15T16:50:31
+================================================================================
+[2026-02-15T16:51:29.902+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.04s           2026-02-15T16:51:02
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.06s           2026-02-15T16:51:01
+/opt/airflow/dags/sandbox.py                                      1           0  0.07s           2026-02-15T16:51:02
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.55s           2026-02-15T16:51:02
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.46s           2026-02-15T16:51:02
+================================================================================
+[2026-02-15T16:52:00.642+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:51:33
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.06s           2026-02-15T16:51:31
+/opt/airflow/dags/sandbox.py                                      1           0  0.06s           2026-02-15T16:51:33
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.46s           2026-02-15T16:51:33
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.40s           2026-02-15T16:51:33
+================================================================================
+[2026-02-15T16:52:31.418+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.04s           2026-02-15T16:52:04
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.07s           2026-02-15T16:52:02
+/opt/airflow/dags/sandbox.py                                      1           0  0.05s           2026-02-15T16:52:03
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.46s           2026-02-15T16:52:04
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.37s           2026-02-15T16:52:04
+================================================================================
+[2026-02-15T16:53:02.236+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:52:35
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.07s           2026-02-15T16:52:33
+/opt/airflow/dags/sandbox.py                                      1           0  0.07s           2026-02-15T16:52:34
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.56s           2026-02-15T16:52:35
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.48s           2026-02-15T16:52:35
+================================================================================
+[2026-02-15T16:53:33.112+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.04s           2026-02-15T16:53:05
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.06s           2026-02-15T16:53:04
+/opt/airflow/dags/sandbox.py                                      1           0  0.06s           2026-02-15T16:53:05
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.61s           2026-02-15T16:53:05
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.54s           2026-02-15T16:53:05
+================================================================================
+[2026-02-15T16:54:03.922+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.04s           2026-02-15T16:53:36
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.07s           2026-02-15T16:53:35
+/opt/airflow/dags/sandbox.py                                      1           0  0.07s           2026-02-15T16:53:36
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.53s           2026-02-15T16:53:36
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.47s           2026-02-15T16:53:36
+================================================================================
+[2026-02-15T16:54:34.836+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.05s           2026-02-15T16:54:07
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.10s           2026-02-15T16:54:06
+/opt/airflow/dags/sandbox.py                                      1           0  0.08s           2026-02-15T16:54:07
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.52s           2026-02-15T16:54:07
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.47s           2026-02-15T16:54:07
+================================================================================
+[2026-02-15T16:55:05.720+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.04s           2026-02-15T16:54:38
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.09s           2026-02-15T16:54:36
+/opt/airflow/dags/sandbox.py                                      1           0  0.07s           2026-02-15T16:54:37
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.57s           2026-02-15T16:54:38
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.49s           2026-02-15T16:54:38
+================================================================================
+[2026-02-15T16:55:36.589+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.04s           2026-02-15T16:55:09
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.08s           2026-02-15T16:55:07
+/opt/airflow/dags/sandbox.py                                      1           0  0.07s           2026-02-15T16:55:08
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.59s           2026-02-15T16:55:09
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.50s           2026-02-15T16:55:09
+================================================================================
+[2026-02-15T16:55:54.204+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-02-15T16:55:54.212+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2026-02-15T16:56:07.345+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:55:40
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.08s           2026-02-15T16:55:38
+/opt/airflow/dags/sandbox.py                                      1           0  0.07s           2026-02-15T16:55:39
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.44s           2026-02-15T16:55:40
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.36s           2026-02-15T16:55:40
+================================================================================
+[2026-02-15T16:56:38.041+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:56:10
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.06s           2026-02-15T16:56:09
+/opt/airflow/dags/sandbox.py                                      1           0  0.07s           2026-02-15T16:56:10
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.46s           2026-02-15T16:56:10
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.38s           2026-02-15T16:56:10
+================================================================================
+[2026-02-15T16:57:08.858+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.04s           2026-02-15T16:56:41
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.07s           2026-02-15T16:56:40
+/opt/airflow/dags/sandbox.py                                      1           0  0.07s           2026-02-15T16:56:41
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.49s           2026-02-15T16:56:41
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.44s           2026-02-15T16:56:41
+================================================================================
+[2026-02-15T16:57:39.615+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:57:12
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.06s           2026-02-15T16:57:10
+/opt/airflow/dags/sandbox.py                                      1           0  0.07s           2026-02-15T16:57:11
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.45s           2026-02-15T16:57:12
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.37s           2026-02-15T16:57:12
+================================================================================
+[2026-02-15T16:58:10.370+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.04s           2026-02-15T16:57:43
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.06s           2026-02-15T16:57:41
+/opt/airflow/dags/sandbox.py                                      1           0  0.06s           2026-02-15T16:57:42
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.43s           2026-02-15T16:57:43
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.43s           2026-02-15T16:57:43
+================================================================================
+[2026-02-15T16:58:41.149+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:58:13
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.08s           2026-02-15T16:58:12
+/opt/airflow/dags/sandbox.py                                      1           0  0.08s           2026-02-15T16:58:13
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.47s           2026-02-15T16:58:13
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.39s           2026-02-15T16:58:13
+================================================================================
+[2026-02-15T16:59:11.937+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:58:44
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.06s           2026-02-15T16:58:43
+/opt/airflow/dags/sandbox.py                                      1           0  0.07s           2026-02-15T16:58:44
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.48s           2026-02-15T16:58:44
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.39s           2026-02-15T16:58:44
+================================================================================
+[2026-02-15T16:59:42.626+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:59:15
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.06s           2026-02-15T16:59:14
+/opt/airflow/dags/sandbox.py                                      1           0  0.06s           2026-02-15T16:59:15
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.44s           2026-02-15T16:59:15
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.37s           2026-02-15T16:59:15
+================================================================================
+[2026-02-15T17:00:13.382+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_first_dag.py                                 1           0  0.03s           2026-02-15T16:59:46
+/opt/airflow/dags/airflow_lab2_flask.py                           1           0  0.07s           2026-02-15T16:59:44
+/opt/airflow/dags/sandbox.py                                      1           0  0.08s           2026-02-15T16:59:45
+/opt/airflow/dags/airflow_lab2.py                                 1           0  0.44s           2026-02-15T16:59:46
+/opt/airflow/dags/ml_pipeline.py                                  1           0  0.36s           2026-02-15T16:59:46
+================================================================================
+[2026-02-15T17:00:25.056+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
