@@ -1,0 +1,66 @@
+# =============================================================================
+# Lab3 - Production-Ready Multi-Stage Dockerfile with Health Checks
+# =============================================================================
+
+# Stage 1: Train the model
+FROM python:3.10-slim AS model_training
+
+WORKDIR /app
+
+COPY src/model_training.py /app/
+COPY requirements.txt /app/
+
+RUN pip install --no-cache-dir -r requirements.txt
+RUN python model_training.py
+
+# Stage 2: Serve predictions (production-ready)
+FROM python:3.10-slim AS serving
+
+WORKDIR /app
+
+# Create non-root user for security
+RUN groupadd -r appuser && useradd -r -g appuser appuser
+
+# Create logs directory
+RUN mkdir -p /app/logs && chown -R appuser:appuser /app/logs
+
+# Copy model from training stage
+COPY --from=model_training /app/my_model.keras /app/
+
+# Copy application code
+COPY src/main.py /app/
+COPY requirements.txt /app/
+COPY src/templates /app/templates
+COPY src/statics /app/statics
+
+# Install dependencies
+RUN pip install --no-cache-dir --trusted-host pypi.python.org -r requirements.txt
+
+# Change ownership of app files
+RUN chown -R appuser:appuser /app
+
+# Environment variables (can be overridden at runtime)
+ENV PORT=4000
+ENV LOG_LEVEL=INFO
+ENV LOG_FILE=/app/logs/app.log
+ENV MODEL_PATH=my_model.keras
+ENV FLASK_DEBUG=false
+
+# Expose the port
+EXPOSE 4000
+
+# ─────────────────────────────────────────────
+# HEALTH CHECK — Docker will ping /health every 30s
+# If it fails 3 times in a row, container is marked "unhealthy"
+# ─────────────────────────────────────────────
+HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
+    CMD curl -f http://localhost:4000/health || exit 1
+
+# Install curl for healthcheck
+RUN apt-get update && apt-get install -y --no-install-recommends curl && \
+    rm -rf /var/lib/apt/lists/*
+
+# Switch to non-root user
+USER appuser
+
+CMD ["python", "main.py"]

@@ -1,0 +1,82 @@
+# =============================================================================
+# Lab3 - Docker Compose with Health Checks, Logging & Named Volumes
+# =============================================================================
+
+services:
+  # ───────────────────────────────────────────
+  # Service 1: Train the model
+  # ───────────────────────────────────────────
+  model-training:
+    image: python:3.10-slim
+    container_name: ml_trainer_lab3
+    working_dir: /app
+    volumes:
+      - ./src:/app/src
+      - ./requirements.txt:/app/requirements.txt
+      - model_exchange:/exchange
+    command: >
+      sh -c "pip install -r requirements.txt &&
+             python src/model_training.py &&
+             cp my_model.keras /exchange/my_model.keras"
+    # Logging configuration — sends container logs to Docker log driver
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+        tag: "ml_trainer"
+
+  # ───────────────────────────────────────────
+  # Service 2: Serve predictions (production-ready)
+  # ───────────────────────────────────────────
+  serving:
+    image: python:3.10-slim
+    container_name: ml_serving_lab3
+    working_dir: /app
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./src:/app/src
+      - ./requirements.txt:/app/requirements.txt
+      - ./src/templates:/app/templates
+      - ./src/statics:/app/statics
+      - model_exchange:/exchange
+      - app_logs:/app/logs          # Persist logs across restarts
+    depends_on:
+      model-training:
+        condition: service_completed_successfully
+    # Environment variables for configuration
+    environment:
+      - PORT=4000
+      - LOG_LEVEL=INFO
+      - LOG_FILE=/app/logs/app.log
+      - MODEL_PATH=my_model.keras
+      - FLASK_DEBUG=false
+    command: >
+      sh -c "pip install --trusted-host pypi.python.org -r requirements.txt &&
+             apt-get update && apt-get install -y --no-install-recommends curl &&
+             cp /exchange/my_model.keras ./my_model.keras &&
+             python src/main.py"
+    # ─────────────────────────────────────────
+    # HEALTH CHECK — Docker Compose level
+    # Checks /health endpoint every 30 seconds
+    # ─────────────────────────────────────────
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4000/health"]
+      interval: 30s
+      timeout: 5s
+      start_period: 15s
+      retries: 3
+    # Restart policy — auto-restart on failure
+    restart: unless-stopped
+    # Logging configuration
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+        tag: "ml_serving"
+
+volumes:
+  model_exchange:
+  app_logs:        # Named volume to persist application logs
