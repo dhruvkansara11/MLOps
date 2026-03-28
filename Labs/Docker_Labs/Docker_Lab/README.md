@@ -1,4 +1,4 @@
-# Docker Lab 3 — Production-Ready ML Deployment with Health Checks & Logging
+# Docker Lab Deployment with Health Checks & Logging
 
 ## Overview
 
