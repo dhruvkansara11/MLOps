@@ -1,7 +1,3 @@
----
-- Blog: [FastAPI Lab-1](https://www.mlwithramin.com/blog/streamlit-lab1)
----
-
 ## Streamlit Introduction
 
 Data Science models often need to be shared and presented in an interactive manner for various applications. Streamlit provides a convenient platform to build user-friendly interfaces, allowing practitioners to showcase their remarkable machine learning models to a broader audience effectively.
@@ -146,8 +142,4 @@ The dashboard will open at `http://localhost:8501`.
 
 This app is a Single Page Application. Streamlit supports multi-page apps by adding files to a `Pages/` directory. See the [Streamlit multipage docs](https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app) for more info.
 
-### Running on Google Colab
-
-This lab has additional support to run on a free Google Colab instance. Here is the [link](https://colab.research.google.com/drive/1ESehcAeGGiFvIM6zZaceCxzz6Nb_3Rbp?usp=sharing) to the demo lab.
-
-![Description](./SS.png)
+![Description](./src/SS.png)
