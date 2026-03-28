@@ -138,8 +138,5 @@ The dashboard will open at `http://localhost:8501`.
 | `st.spinner` | Show loading state during prediction |
 | `st.toast` | Display error notifications |
 
-## Additional Information
-
-This app is a Single Page Application. Streamlit supports multi-page apps by adding files to a `Pages/` directory. See the [Streamlit multipage docs](https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app) for more info.
 
 ![Description](./src/SS.png)
