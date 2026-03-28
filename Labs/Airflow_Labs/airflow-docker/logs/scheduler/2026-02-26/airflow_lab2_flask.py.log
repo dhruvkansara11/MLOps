@@ -1,0 +1,112 @@
+[2026-02-26T14:45:45.802+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:45:45.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:45:45.809+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:45:45.809+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:45:45.822+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:45:45.848+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:45:45.848+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:45:45.856+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:45:45.856+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:45:45.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.075 seconds
+[2026-02-26T14:46:16.232+0000] {processor.py:161} INFO - Started process (PID=98) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:46:16.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:46:16.234+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:46:16.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:46:16.255+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:46:16.272+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:46:16.271+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:46:16.282+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:46:16.282+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:46:16.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.073 seconds
+[2026-02-26T14:46:46.959+0000] {processor.py:161} INFO - Started process (PID=151) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:46:46.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:46:46.962+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:46:46.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:46:46.968+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:46:46.980+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:46:46.980+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:46:46.985+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:46:46.985+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:46:47.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.045 seconds
+[2026-02-26T14:47:17.640+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:47:17.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:47:17.643+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:47:17.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:47:17.655+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:47:17.667+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:47:17.667+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:47:17.673+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:47:17.673+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:47:17.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.045 seconds
+[2026-02-26T14:47:48.401+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:47:48.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:47:48.404+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:47:48.404+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:47:48.420+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:47:48.433+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:47:48.432+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:47:48.438+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:47:48.438+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:47:48.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.055 seconds
+[2026-02-26T14:48:19.137+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:48:19.139+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:48:19.141+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:48:19.140+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:48:19.156+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:48:19.167+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:48:19.167+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:48:19.172+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:48:19.172+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:48:19.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.050 seconds
+[2026-02-26T14:48:49.871+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:48:49.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:48:49.875+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:48:49.875+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:48:49.890+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:48:49.902+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:48:49.902+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:48:49.907+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:48:49.907+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:48:49.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.050 seconds
+[2026-02-26T14:49:20.574+0000] {processor.py:161} INFO - Started process (PID=311) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:49:20.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:49:20.578+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:49:20.577+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:49:20.590+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:49:20.603+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:49:20.603+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:49:20.608+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:49:20.608+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:49:20.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.046 seconds
+[2026-02-26T14:49:51.308+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:49:51.309+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:49:51.312+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:49:51.312+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:49:51.325+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:49:51.336+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:49:51.336+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:49:51.342+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:49:51.342+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:49:51.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.047 seconds
+[2026-02-26T14:50:21.997+0000] {processor.py:161} INFO - Started process (PID=373) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:50:21.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:50:21.999+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:50:21.999+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:50:22.010+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:50:22.023+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:50:22.023+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:50:22.029+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:50:22.029+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:50:22.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.051 seconds
+[2026-02-26T14:50:52.821+0000] {processor.py:161} INFO - Started process (PID=404) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:50:52.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:50:52.824+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:50:52.824+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:50:52.837+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:50:52.848+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:50:52.848+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:50:52.853+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:50:52.853+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:50:52.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.044 seconds
+[2026-02-26T14:51:23.581+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:51:23.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:51:23.583+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:51:23.583+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:51:23.596+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:51:23.607+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:51:23.607+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:51:23.612+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:51:23.612+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:51:23.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.043 seconds
+[2026-02-26T14:51:54.390+0000] {processor.py:161} INFO - Started process (PID=466) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:51:54.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:51:54.393+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:51:54.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:51:54.404+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:51:54.416+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:51:54.415+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:51:54.425+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:51:54.425+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:51:54.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.049 seconds
+[2026-02-26T14:52:25.143+0000] {processor.py:161} INFO - Started process (PID=497) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:52:25.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:52:25.145+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:52:25.145+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:52:25.152+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:52:25.161+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:52:25.161+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:52:25.166+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:52:25.165+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:52:25.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.033 seconds
+[2026-02-26T14:52:55.871+0000] {processor.py:161} INFO - Started process (PID=528) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:52:55.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:52:55.872+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:52:55.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:52:55.882+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:52:55.889+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:52:55.889+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:52:55.893+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:52:55.893+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:52:55.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.033 seconds
+[2026-02-26T14:53:26.641+0000] {processor.py:161} INFO - Started process (PID=559) to work on /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:53:26.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_lab2_flask.py for tasks to queue
+[2026-02-26T14:53:26.643+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:53:26.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:53:26.650+0000] {processor.py:840} INFO - DAG(s) 'Airflow_Lab2_Flask' retrieved from /opt/airflow/dags/airflow_lab2_flask.py
+[2026-02-26T14:53:26.658+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:53:26.658+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-02-26T14:53:26.664+0000] {logging_mixin.py:188} INFO - [2026-02-26T14:53:26.664+0000] {dag.py:3823} INFO - Setting next_dagrun for Airflow_Lab2_Flask to None, run_after=None
+[2026-02-26T14:53:26.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_lab2_flask.py took 0.033 seconds
