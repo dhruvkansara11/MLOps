@@ -14,7 +14,7 @@ The following features were added to the original Streamlit dashboard:
 
 The dashboard now connects to a **Heart Disease Prediction** FastAPI backend. The model uses 13 clinical features (age, sex, chest pain type, blood pressure, cholesterol, etc.) to predict whether a patient may have heart disease.
 
-### 2. Dual Input Method — Sliders & JSON File Upload
+### 2. Dual Input Method Sliders & JSON File Upload
 
 Users can choose between two input methods via a radio toggle in the sidebar:
 
