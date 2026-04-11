@@ -1,5 +1,5 @@
 import pickle, os, json, random
-from sklearn.metrics import f1_score
+from sklearn.metrics import f1_score, precision_score, recall_score, confusion_matrix
 import joblib, glob, sys
 import argparse
 from sklearn.datasets import make_classification
@@ -35,7 +35,12 @@ if __name__=='__main__':
         raise ValueError('Failed to catching the data')
     
     y_predict = model.predict(X)
-    metrics = {"F1_Score":f1_score(y, y_predict)}
+    metrics = {
+    "F1_Score":        round(f1_score(y, y_predict), 4),
+    "Precision":       round(precision_score(y, y_predict), 4),
+    "Recall":          round(recall_score(y, y_predict), 4),
+    "Confusion_Matrix": confusion_matrix(y, y_predict).tolist()
+}
     
     # Save metrics to a JSON file
 
